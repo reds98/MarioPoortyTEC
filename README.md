@@ -13,8 +13,9 @@ MarioPartyTEC/
 ├── GameServer/        # Servidor del juego
 ├── GameClient/        # Cliente del juego
 ├── docs/             # Documentación
-│   ├── DiagramaCliente.pdf     # Diagrama de clases del cliente
-│   └── DiagramaServer.pdf      # Diagrama de clases del servidor
+│   └── diagrams/     # Diagramas UML
+│       ├── DiagramaCliente.pdf     # Diagrama de clases del cliente
+│       └── DiagramaServer.pdf      # Diagrama de clases del servidor
 └── README.md         # Documentación principal
 ```
 
@@ -67,7 +68,7 @@ MarioPartyTEC/
 ## Diagramas de Clase
 
 ### Diagrama del Cliente
-![Diagrama del Cliente](docs/DiagramaCliente.pdf)
+![Diagrama del Cliente](docs/diagrams/DiagramaCliente.pdf)
 El diagrama del cliente muestra la estructura completa del componente cliente, incluyendo:
 - Interfaz gráfica
 - Manejo de mini-juegos
@@ -75,7 +76,7 @@ El diagrama del cliente muestra la estructura completa del componente cliente, i
 - Gestión de estados del juego
 
 ### Diagrama del Servidor
-![Diagrama del Servidor](docs/DiagramaServer.pdf)
+![Diagrama del Servidor](docs/diagrams/DiagramaServer.pdf)
 El diagrama del servidor ilustra:
 - Gestión de conexiones
 - Lógica del juego
